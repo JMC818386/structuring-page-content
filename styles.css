@@ -12,6 +12,7 @@ header {
 h1 {
     display: flex;
     margin: auto;
+    font-size: 75px;
 }
 
 #toplogo {
@@ -30,4 +31,34 @@ ul {
 
 li {
     list-style: none;
+}
+
+main {
+    display: flex;
+}
+
+section{
+    width: 60%;
+    padding: 10px;
+    margin: 10px;
+}
+
+p {
+    line-height: 30px;
+}
+
+aside {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h2 {
+    margin: auto;
+    padding: 25px;
+    font-size: 40px;
+}
+
+footer {
+    margin: 25px;
 }
